@@ -1,6 +1,6 @@
 body{
     background-size: auto;
-    margin: 0;
+    margin: 0 auto;
     padding:0;
     background-image: url('https://media3.giphy.com/media/NW3jUfdKlaF62AsTbK/200w.gif?cid=82a1493bhdvt1xgyhdnamcxm41y5o505dt0bg6lt3rbygwy6&rid=200w.gif&ct=g');
 }
@@ -162,3 +162,17 @@ figure:nth-child(10){
     }
     
 }
+
+
+
+@media (max-width: 600px) { 
+    .slideshow{
+        top: 50%;
+    }
+    .slideshowf{
+        top: 150%;
+    }
+    .slideshowg{
+        top: 260%;
+    }
+ }
